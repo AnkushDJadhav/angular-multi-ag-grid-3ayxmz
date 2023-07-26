@@ -1,0 +1,10 @@
+<section *ngIf="opHours">
+  <div>Hours of Operation</div>
+  <ag-grid-angular
+    #agGrid
+    class="ag-theme-material"
+    [rowData]="opHours"
+    [columnDefs]="displayedColumns"
+  >
+  </ag-grid-angular>
+</section>

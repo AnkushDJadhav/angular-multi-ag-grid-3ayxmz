@@ -1,0 +1,10 @@
+{
+  "apps": [{
+    "styles": [
+      
+        "~ag-grid/dist/styles/ag-grid.css",
+        "~ag-grid/dist/styles/ag-theme-material.css",
+      "styles.css"
+      ]
+  }]
+}
